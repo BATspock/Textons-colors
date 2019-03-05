@@ -26,7 +26,7 @@ however the assignemnt types do not impact the performance of the code in any si
 To run the script 
 
 ```
-from textons_utils import Textons
+from texton_color_utils import Textons
 
 im = cv2.imread('path_to_image')
 textons = Textons(im, number of clusters, number of iterations, assignemnet type)
@@ -38,7 +38,7 @@ cv2.destroyAllWindows()
 
 Example 
 ```
-from textons_utils import Textons
+from texton_color_utils import Textons
 
 im = cv2.imread('image.jpg')
 textons = Textons(im, 5, 25, 1)
