@@ -40,7 +40,7 @@ Example
 ```
 from textons_utils import Textons
 
-im = cv2.imread('image.jpg', 0)
+im = cv2.imread('image.jpg')
 textons = Textons(im, 5, 25, 1)
 tex = textons.textons()
 cv2.imshow("check", tex)
