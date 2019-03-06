@@ -56,3 +56,8 @@ cv2.destroyAllWindows()
 
 ### To-Do
 * Add feature to stop k means on the basis of accuracy
+
+ Result with 10 iterations and K value as 3
+ 
+ 
+[!original image](https://github.com/BATspock/Textons-colors/blob/master/5.jpg)      [!segmented image](https://github.com/BATspock/Textons-colors/blob/master/check.png)
