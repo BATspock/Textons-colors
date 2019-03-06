@@ -51,5 +51,8 @@ cv2.destroyAllWindows()
 
 *  Advisable to keep number of iterations high (recommended>=100) for reproducibility of result
 
+### Improved Reproducibility of Result
+* Added feature to make the results reproducible 
+
 ### To-Do
 * Add feature to stop k means on the basis of accuracy
