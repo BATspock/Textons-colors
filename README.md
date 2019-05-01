@@ -65,5 +65,5 @@ cv2.destroyAllWindows()
 ### To-Do
 - [ ] Add feature to stop k means on the basis of accuracy
 - [ ] Add minkowski and mahalanobis distance as distance measure
-- [x] integration of 3D Voxel and marhcing cubes to create 3D mesh
+- [x] integration of 3D Voxel and marching cubes to create 3D mesh
 - [ ] automate height assignment
