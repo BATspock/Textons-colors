@@ -6,17 +6,18 @@ There is an additional layer(#2) for the base of the model
 '''
 import cv2
 import numpy as np 
+#import stl
 from stl import mesh
 from skimage.filters import threshold_otsu
 import matplotlib.pyplot as plt 
 from skimage import measure
 
-image1 = cv2.imread("center_test: 0.png",0)
+image1 = cv2.imread("center: 0.png",0)
 cv2.imshow("image1", image1)
 image1 = cv2.bitwise_not(image1)
 image1 = cv2.dilate(image1, kernel=np.ones((7,7)), iterations=1)
 image1 = cv2.bitwise_not(image1)
-image2 = cv2.imread("center_processing_test: 1.png",0)
+image2 = cv2.imread("center processing: 3.png",0)
 cv2.imshow("image2", image2)
 show = np.zeros_like(image1)
 show[image1 == 0] = 255
