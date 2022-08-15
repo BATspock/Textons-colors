@@ -59,7 +59,7 @@ cv2.destroyAllWindows()
  Result with 10 iterations and K value as 3
  
  
-![original image](https://github.com/BATspock/Textons-colors/blob/master/5.jpg)      ![segmented image](https://github.com/BATspock/Textons-colors/blob/master/check.png)
+![original image](https://github.com/BATspock/Textons-colors/blob/master/images/5.jpg)      ![segmented image](https://github.com/BATspock/Textons-colors/blob/master/check.png)
 
 
 ### To-Do
